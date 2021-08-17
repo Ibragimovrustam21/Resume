@@ -29,13 +29,16 @@ body {
 }
 @media (min-width:0) and (max-width:446.9px){
   body{
+    margin: 0 auto;
     background: none;
   }
   .container{
-    width: 100% ;
+    width: auto !important;
   }
   .container {
-    margin: auto;
+    margin: 0 auto;
+    width: 100%;
+    /* background: red; */
   }
   .App{
     flex-direction: column;
@@ -46,6 +49,6 @@ body {
     background: none;
   }
   .container{
-    width: 100%
+    width: auto !important;
   }
 }
