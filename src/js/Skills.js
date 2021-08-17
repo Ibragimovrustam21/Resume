@@ -14,7 +14,7 @@ export const Skills = ({ value, title }) => {
     return () => {
       clearInterval(timer)
     }
-  }, [])
+  }, )
 
   return (
     <div className='skills_div' >
