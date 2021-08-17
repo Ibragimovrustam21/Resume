@@ -1,0 +1,381 @@
+.profile {
+  background-color: #edededde;
+  width: 40%;
+  display: flex;
+  flex-direction: column;
+  box-sizing: border-box;
+  padding: 10px;
+  border-radius: 4px 0 0 4px;
+}
+
+/* User photo */
+.user-img-div {
+  height: 200px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.user-img {
+  border: 1px solid rgb(80, 79, 79);
+  height: 180px;
+  width: 180px;
+  border-radius: 50%;
+  box-sizing: border-box;
+  padding: 5px;
+}
+
+.user-img img {
+  height: 100%;
+  width: 100%;
+  border-radius: 50% !important;
+}
+
+/* About me */
+.about_me_div {
+  text-align: start;
+  padding: 10px;
+}
+
+.about_me {
+  letter-spacing: 1px;
+  line-height: 1.2;
+  color: #7c7b7b;
+  margin: 5px 0;
+  font-weight: bold;
+}
+
+/* Address */
+.address {
+  box-sizing: border-box;
+  padding: 0 10px;
+}
+
+.address-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  margin-top: 10px;
+}
+
+.address-item p,
+h4 {
+  margin: 0;
+}
+
+.address-item p {
+  width: 70%;
+  letter-spacing: 1px;
+  color: rgb(124, 123, 123);
+  font-weight: 700;
+  font-size: 13px;
+}
+
+.address-item p a {
+  text-decoration: none;
+  color: rgb(124, 123, 123);
+}
+
+.address-item p a:hover {
+  color: #130a2aab;
+  cursor: pointer;
+}
+
+/* Skills */
+.skills {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  flex-wrap: wrap;
+  margin-top: 10px;
+}
+
+.skills .css-1rn30mb-MuiCircularProgress-root {
+  height: 55px !important;
+  width: 55px !important;
+  color: #1c0f3dab;
+}
+
+.skills .css-rmz4vk {
+  justify-content: center;
+  color: green !important;
+}
+
+/* Link Messengers */
+.Link {
+  height: 80px;
+  width: 80%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.Link div {
+  transition: all 0.3s linear;
+
+}
+
+.Link div:hover {
+  transition: all 0.5s linear;
+  border: 2px solid #130a2aab;
+}
+
+.Link .messenger {
+  height: 45px;
+  width: 45px;
+  border: 2px solid rgb(163, 161, 161);
+  box-sizing: border-box;
+  padding: 5px;
+  border-radius: 50%;
+  cursor: pointer;
+}
+
+.Link .messenger img {
+  height: 100%;
+  width: 100%;
+  border-radius: 50%;
+}
+
+/* Adaptive  */
+@media (min-width:0) and (max-width:446.9px) {
+  .profile {
+    width: 100%;
+    border-radius: 4px 4px 0 0;
+  }
+
+  .user-img-div {
+    height: 130px;
+  }
+
+  .user-img {
+    height: 110px;
+    width: 110px;
+  }
+
+  .about_me {
+    line-height: 1.1;
+    font-size: 14px;
+  }
+
+  .address-item {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+  }
+
+  .address-item h4 {
+    font-size: 14px;
+  }
+
+  .address-item p {
+    width: 100%;
+    letter-spacing: 0.8px;
+    font-size: 12px;
+    text-align: center;
+    margin-top: 5px;
+  }
+
+  .address-item p a {
+    font-size: 11px;
+  }
+
+  .skills {
+    margin-top: 5px;
+  }
+
+  .skills .css-1rn30mb-MuiCircularProgress-root {
+    height: 35px !important;
+    width: 35px !important;
+  }
+
+  .skills h5 {
+    font-size: 10px;
+  }
+
+  .skills .css-ol7wxs-MuiTypography-root {
+    font-size: 9px;
+  }
+
+  .Link .messenger {
+    height: 30px;
+    width: 30px;
+  }
+}
+
+@media (min-width:447px) and (max-width:768.9px) {
+  .user-img-div {
+    height: 130px;
+  }
+
+  .user-img {
+    height: 110px;
+    width: 110px;
+  }
+
+  .about_me {
+    line-height: 1.1;
+    font-size: 14px;
+    margin: 0;
+  }
+
+  .address-item {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+  }
+
+  .address-item h4 {
+    font-size: 14px;
+  }
+
+  .address-item p {
+    width: 100%;
+    letter-spacing: 0.8px;
+    font-size: 12px;
+    text-align: center;
+    margin-top: 5px;
+  }
+
+  .address-item p a {
+    font-size: 11px;
+  }
+
+  .skills {
+    margin-top: 5px;
+  }
+
+  .skills .css-1rn30mb-MuiCircularProgress-root {
+    height: 35px !important;
+    width: 35px !important;
+  }
+
+  .skills h5 {
+    font-size: 10px;
+  }
+
+  .skills .css-ol7wxs-MuiTypography-root {
+    font-size: 9px;
+  }
+
+  .Link .messenger {
+    height: 30px;
+    width: 30px;
+  }
+}
+
+@media (min-width:769px) and (max-width:989.9px) {
+  .user-img-div {
+    height: 150px;
+  }
+
+  .user-img {
+    height: 140px;
+    width: 140px;
+  }
+
+  .about_me {
+    line-height: 1.1;
+    font-size: 14px;
+  }
+
+  .address-item {
+    margin-top: 5px;
+  }
+
+  .address-item h4 {
+    font-size: 13px;
+  }
+
+  .address-item p {
+    width: 70%;
+    letter-spacing: 0.8px;
+    font-size: 12px;
+  }
+
+  .address-item p a {
+    font-size: 11px;
+  }
+
+  .skills {
+    margin-top: 5px;
+  }
+
+  .skills .css-1rn30mb-MuiCircularProgress-root {
+    height: 40px !important;
+    width: 40px !important;
+  }
+
+  .skills h5 {
+    font-size: 11px;
+  }
+
+  .skills .css-ol7wxs-MuiTypography-root {
+    font-size: 10px;
+  }
+
+  .Link .messenger {
+    height: 40px;
+    width: 40px;
+  }
+
+}
+
+@media (min-width:990px) and (max-width:1199.9px) {
+
+  .user-img-div {
+    height: 170px;
+  }
+
+  .user-img {
+    height: 150px;
+    width: 150px;
+  }
+
+  .about_me {
+    line-height: 1.2;
+    font-size: 14px;
+  }
+
+  .address-item {
+    margin-top: 5px;
+  }
+
+  .address-item h4 {
+    font-size: 14px;
+  }
+
+  .address-item p {
+    letter-spacing: 0.8px;
+    font-size: 13px;
+  }
+
+  .address-item p a {
+    font-size: 13px;
+  }
+
+  .skills {
+    margin-top: 5px;
+  }
+
+  .skills .css-1rn30mb-MuiCircularProgress-root {
+    height: 45px !important;
+    width: 45px !important;
+  }
+
+  .skills h5 {
+    font-size: 11px;
+  }
+
+  .skills .css-ol7wxs-MuiTypography-root {
+    font-size: 11px;
+  }
+
+  .Link .messenger {
+    height: 45px;
+    width: 45px;
+  }
+}

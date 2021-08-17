@@ -1,0 +1,12 @@
+.skills_div {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin: 10px
+}
+
+.skills_div h5 {
+  text-align: center;
+  margin-top: 0
+}
+

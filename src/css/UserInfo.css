@@ -1,0 +1,205 @@
+.userInfo {
+  box-sizing: border-box;
+  width: 60%;
+  display: flex;
+  flex-direction: column;
+  padding: 10px 15px;
+  background: #ffffffed;
+  border-radius: 0 4px 4px 0;
+}
+
+/* About User */
+.user-Name {
+  height: 200px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+
+.user-Name h1 {
+  color: rgb(160, 159, 159);
+  letter-spacing: 3px;
+
+}
+
+.user-Name h1 strong {
+  color: rgb(37, 37, 37);
+}
+
+.user-Name h3 {
+  letter-spacing: 3px;
+  background-color: rgb(31, 29, 29);
+  color: #fff;
+  width: 60%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 35px;
+  margin: 0;
+}
+
+/* Experience */
+.Experience {
+  margin: 20px
+}
+
+.Experience .css-18lrjg1-MuiCircularProgress-root {
+  color: #130a2aab;
+  height: 35px !important;
+  width: 35px !important
+}
+
+/* Education */
+.education {
+  height: auto;
+  display: flex;
+  justify-content: space-around;
+  margin-top: 20px;
+}
+
+.education div {
+  width: 50%;
+  text-align: center;
+}
+
+.education div p {
+  color: rgb(160, 159, 159);
+}
+
+.education div h3 {
+  margin: 5px;
+  letter-spacing: 0.6px;
+}
+
+/* Adaptive */
+@media (min-width:0) and (max-width:446.9px) {
+
+  .userInfo {
+    width: 100%;
+    border-radius: 0 0 4px 4px;
+  }
+  .user-Name {
+    height: 150px;
+  }
+
+  .user-Name h1 {
+    font-size: 15px;
+    letter-spacing: 1px;
+  }
+
+  .user-Name h3 {
+    width: 70%;
+    font-size: 6px;
+    letter-spacing: 1px;
+    height: 25px;
+
+  }
+
+  .Experience .css-18lrjg1-MuiCircularProgress-root {
+    height: 25px !important;
+    width: 25px !important;
+  }
+
+  .education div h3 {
+    font-size: 11px;
+  }
+
+  .education div p {
+    font-size: 10px;
+  }
+}
+
+@media (min-width:447px) and (max-width:768.9px) {
+
+
+  .user-Name {
+    height: 150px;
+  }
+
+  .user-Name h1 {
+    font-size: 15px;
+    letter-spacing: 1px;
+  }
+
+  .user-Name h3 {
+    width: 70%;
+    font-size: 6px;
+    letter-spacing: 1px;
+    height: 25px;
+
+  }
+
+  .Experience .css-18lrjg1-MuiCircularProgress-root {
+    height: 30px !important;
+    width: 30px !important;
+  }
+
+  .education div h3 {
+    font-size: 11px;
+  }
+
+  .education div p {
+    font-size: 10px;
+  }
+}
+
+@media (min-width:769px) and (max-width:989.9px) {
+
+
+  .user-Name h1 {
+    font-size: 23px;
+    letter-spacing: 2px;
+  }
+
+  .user-Name h3 {
+    width: 72%;
+    font-size: 11px;
+    letter-spacing: 2px;
+
+  }
+
+  .education div h3 {
+    font-size: 13px;
+  }
+
+  .education div p {
+    font-size: 12px;
+  }
+}
+
+@media (min-width:990px) and (max-width:1199.9px) {
+  .user-Name h1 {
+    font-size: 25px;
+  }
+
+  .user-Name h3 {
+    width: 60%;
+    font-size: 12px;
+  }
+
+  .education div h3 {
+    font-size: 14px;
+  }
+
+  .education div p {
+    font-size: 12px;
+  }
+}
+
+@media (min-width:1200px) and (max-width:1400px) {
+
+
+  .user-Name h3 {
+    font-size: 13px;
+  }
+
+  .education div h3 {
+    font-size: 15px;
+  }
+
+  .education div p {
+    font-size: 12px;
+  }
+}
