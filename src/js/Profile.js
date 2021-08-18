@@ -1,9 +1,13 @@
 import React from 'react'
 import '../css/Profile.css'
+import '../css/UserInfo.css'
 import Tooltip from '@material-ui/core/Tooltip'
 import { Title } from './Title'
 import { Skills } from './Skills'
 import img from '../photo/myPhoto.jpg'
+import { Experience } from './Experience'
+import LaptopMacIcon from '@material-ui/icons/LaptopMac'
+import SchoolIcon from '@material-ui/icons/School'
 
 export const Profile = () => {
   return (
@@ -14,6 +18,10 @@ export const Profile = () => {
         <div className='user-img'>
           <img src={img} alt='' />
         </div>
+      </div>
+      <div className='user-Name-sm user-Name'>
+        <h1>IBRAGIMOV <strong>RUSTAM</strong></h1>
+        <h3>FRONTEND DEVELOPER</h3>
       </div>
       {/* About me */}
       <Title title={'PROFILE'} />
@@ -66,6 +74,30 @@ export const Profile = () => {
         <Skills value='80' title='Russian' />
         <Skills value='40' title='English' />
       </div>
+      {/* sm-display start */}
+      <div className='sm-display'>
+        {/* Education */}
+        <Title title='EDUCATION' />
+        <div className='education'>
+          <div>
+            <LaptopMacIcon />
+            <h3>PDP IT Academy</h3>
+            <p>2020 y</p>
+          </div>
+          <div>
+            <SchoolIcon />
+            <h3>Tashkent Institute of Railway Engineers</h3>
+            <p>2019-2023 y</p>
+          </div>
+        </div>
+        {/* Experience */}
+        {/* <Title title='EXPERIENCE' /> */}
+        <div className='Experience'>
+          <Experience />
+        </div>
+      </div>
+      {/* sm-display end */}
+
       {/* Social */}
       <Title title={'SOCIAL'} />
       <div className='Link'>

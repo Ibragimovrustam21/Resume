@@ -41,16 +41,9 @@
 }
 
 /* Experience */
-.Experience {
+/* .Experience {
   margin: 20px
-}
-
-.Experience .css-18lrjg1-MuiCircularProgress-root {
-  color: #130a2aab;
-  height: 35px !important;
-  width: 35px !important
-}
-
+} */
 /* Education */
 .education {
   height: auto;
@@ -80,6 +73,7 @@
     width: 100%;
     border-radius: 0 0 4px 4px;
   }
+
   .user-Name {
     height: 150px;
   }
@@ -112,19 +106,17 @@
 }
 
 @media (min-width:447px) and (max-width:768.9px) {
-
-
   .user-Name {
-    height: 150px;
+    height: 130px;
   }
 
   .user-Name h1 {
-    font-size: 15px;
+    font-size: 16px;
     letter-spacing: 1px;
   }
 
   .user-Name h3 {
-    width: 70%;
+    width: 55%;
     font-size: 6px;
     letter-spacing: 1px;
     height: 25px;
@@ -147,6 +139,9 @@
 
 @media (min-width:769px) and (max-width:989.9px) {
 
+  .user-Name {
+    height: 150px;
+  }
 
   .user-Name h1 {
     font-size: 23px;
@@ -170,6 +165,10 @@
 }
 
 @media (min-width:990px) and (max-width:1199.9px) {
+  .user-Name {
+    height: 170px;
+  }
+
   .user-Name h1 {
     font-size: 25px;
   }
