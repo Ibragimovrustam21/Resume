@@ -1,27 +1,26 @@
-import * as React from 'react';
-import Stack from '@material-ui/core/Stack';
-import Snackbar from '@material-ui/core/Snackbar';
-import MuiAlert from '@material-ui/core/Alert';
+import * as React from 'react'
+import Stack from '@material-ui/core/Stack'
+import Snackbar from '@material-ui/core/Snackbar'
+import MuiAlert from '@material-ui/core/Alert'
 
 const Alert = React.forwardRef(function Alert(props, ref) {
-  return <MuiAlert elevation={6} ref={ref} variant="filled" {...props} />;
+  return <MuiAlert elevation={6} ref={ref} variant="filled" {...props} />
 });
 
 export const Experience = () => {
-  const [open, setOpen] = React.useState(false);
+  const [open, setOpen] = React.useState(false)
 
   const handleClose = (event, reason) => {
-    if (reason === 'clickaway') {
-      return
-    }
+    if (reason === 'clickaway') return
+    setOpen(false)
+  }
 
-    setOpen(false);
-  };
   React.useEffect(() => {
     setTimeout(() => {
       setOpen(true)
     }, 5000)
   }, [])
+
   return (
     <>
       <Stack spacing={2} sx={{ width: '100%' }}>
@@ -32,5 +31,5 @@ export const Experience = () => {
         </Snackbar>
       </Stack>
     </>
-  );
+  )
 }

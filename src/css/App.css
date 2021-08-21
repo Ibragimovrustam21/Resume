@@ -1,5 +1,5 @@
 body {
-  background: url('https://i.pinimg.com/564x/85/e2/d0/85e2d0d867dc00bc9d5f2b2e330861b5.jpg');
+  background: url('https://i.pinimg.com/564x/85/e2/d0/85e2d0d867dc00bc9d5f2b2e330861b5.jpg')
 }
 
 .container {
@@ -7,7 +7,7 @@ body {
   width: 70%;
   height: 100%;
   padding: 20px;
-  background: url('https://i.pinimg.com/564x/64/4a/01/644a01b2902d8f7b1702849a578c5929.jpg');
+  background: url('https://i.pinimg.com/564x/64/4a/01/644a01b2902d8f7b1702849a578c5929.jpg')
 }
 
 .App_dad {
@@ -17,7 +17,7 @@ body {
   padding: 20px;
   box-sizing: border-box;
   background: url('https://i.pinimg.com/236x/56/25/48/5625483fa2b4148b4599fe6b243d3e40.jpg');
-  border-radius: 4px;
+  border-radius: 4px
 }
 
 .App {
@@ -46,9 +46,9 @@ body {
 }
 @media (min-width:447px) and (max-width:768.9px){
   body{
-    background: none;
+    background: none
   }
   .container{
-    width: auto !important;
+    width: auto !important
   }
 }
