@@ -58,14 +58,16 @@ export const Profile = () => (
     <Title title={'SKILLS'} />
     <div className='skills'>
       <Skills value='100' title='HTML5' />
-      <Skills value='95' title='CSS3' />
+      <Skills value='90' title='CSS3 & SASS' />
       <Skills value='90' title='Bootstrap' />
       <Skills value='80' title='Material UI' />
       <Skills value='90' title='Adaptive lay.' />
       <Skills value='80' title='Java script' />
       <Skills value='70' title='Jquery' />
       <Skills value='80' title='React (Redux)' />
+      <Skills value='60' title='Next js' />
       <Skills value='70' title='Git' />
+
     </div>
     {/* Language */}
     <Title title={'LANGUAGE'} />
