@@ -62,10 +62,10 @@ export const Profile = () => (
       <Skills value='90' title='Bootstrap' />
       <Skills value='80' title='Material UI' />
       <Skills value='90' title='Adaptive lay.' />
-      <Skills value='80' title='Java script' />
-      <Skills value='70' title='Jquery' />
-      <Skills value='80' title='React (Redux)' />
-      <Skills value='60' title='Next js' />
+      <Skills value='75' title='Java script' />
+      <Skills value='75' title='Jquery' />
+      <Skills value='75' title='React (Redux)' />
+      <Skills value='50' title='Next js' />
       <Skills value='70' title='Git' />
 
     </div>
