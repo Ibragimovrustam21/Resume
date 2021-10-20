@@ -5,7 +5,7 @@ import MuiAlert from '@material-ui/core/Alert'
 
 const Alert = React.forwardRef(function Alert(props, ref) {
   return <MuiAlert elevation={6} ref={ref} variant="filled" {...props} />
-});
+})
 
 export const Experience = () => {
   const [open, setOpen] = React.useState(false)
@@ -26,7 +26,7 @@ export const Experience = () => {
       <Stack spacing={2} sx={{ width: '100%' }}>
         <Snackbar open={open} autoHideDuration={10000} onClose={handleClose}>
           <Alert onClose={handleClose} style={{ backgroundColor: '#182126' }} severity="info" sx={{ width: '100%' }}>
-            My experience is about 7-8 months.But I believe in myself.
+            Опыт работы 7-8 месяцев, но я верю в свои силы.
           </Alert>
         </Snackbar>
       </Stack>

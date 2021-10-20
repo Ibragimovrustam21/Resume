@@ -4,7 +4,7 @@ import '../css/UserInfo.css'
 import Tooltip from '@material-ui/core/Tooltip'
 import { Title } from './Title'
 import { Skills } from './Skills'
-import img from '../photo/myPhoto.jpg'
+import img from '../photo/photo_2021-10-18_06-26-59.jpg'
 import { Experience } from './Experience'
 import LaptopMacIcon from '@material-ui/icons/LaptopMac'
 import SchoolIcon from '@material-ui/icons/School'
@@ -19,15 +19,15 @@ export const Profile = () => (
       </div>
     </div>
     <div className='user-Name-sm user-Name'>
-      <h1>IBRAGIMOV <strong>RUSTAM</strong></h1>
-      <h3>FRONTEND DEVELOPER</h3>
+      <h1>Ибрагимов <strong>Рустам</strong></h1>
+      <h3>Фронтенд разработчик</h3>
     </div>
     {/* About me */}
     <Title title={'PROFILE'} />
     <div className='about_me_div'>
       <p className='about_me'>
-        Hi.My name is Rustam.I am 21 years old.I am student.I chose this direction because of my interest in programming,
-        my goal is to improve my skills when working on large projects
+        Hi, my name is Rustam, I am 21 years old, I am a student.
+        I chose this direction because of my interest in programming, my goal is to improve my skills when working on large projects.
       </p>
     </div>
     <div className='address'>
@@ -62,10 +62,10 @@ export const Profile = () => (
       <Skills value='90' title='Bootstrap' />
       <Skills value='80' title='Material UI' />
       <Skills value='90' title='Adaptive lay.' />
-      <Skills value='75' title='Java script' />
-      <Skills value='75' title='Jquery' />
-      <Skills value='75' title='React (Redux)' />
-      <Skills value='50' title='Next js' />
+      <Skills value='65' title='Java script' />
+      <Skills value='65' title='Jquery' />
+      <Skills value='65' title='React (Redux)' />
+      <Skills value='40' title='Next js' />
       <Skills value='70' title='Git' />
 
     </div>
