@@ -49,6 +49,7 @@
   margin: 5px 0;
   font-weight: bold;
 }
+
 /* Address */
 .address {
   box-sizing: border-box;
@@ -87,24 +88,16 @@ h4 {
 
 /* Skills */
 .skills {
+  margin: 10px;
   display: flex;
-  justify-content: center;
-  align-items: flex-start;
-  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.skills div{
   margin-top: 10px;
 }
-
-.skills .css-1rn30mb-MuiCircularProgress-root {
-  height: 55px !important;
-  width: 55px !important;
-  color: #1c0f3dab;
+.skills h4{
+  margin-bottom:10px ;
 }
-
-.skills .css-rmz4vk {
-  justify-content: center;
-  color: green !important;
-}
-
 /* sm-display */
 .sm-display {
   display: none;

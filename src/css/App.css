@@ -38,7 +38,6 @@ body {
   .container {
     margin: 0 auto;
     width: 100%;
-    /* background: red; */
   }
   .App{
     flex-direction: column;
